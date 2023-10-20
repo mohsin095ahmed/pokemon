@@ -1,0 +1,1124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+    
+    
+    
+}
+#main-term{
+        
+        height: 2800px;
+        border-bottom: 5px solid red;
+
+
+
+
+
+
+
+}
+.blank{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    box-shadow: 2px 0px 5px gray;
+    background-color:rgb(237, 230, 230,0.3);
+    height:65px;
+    
+}
+.one{
+    cursor: pointer;
+    background-color: white;
+    width:100px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    box-shadow: 0px 2px 6px black;
+}
+.one img{
+    margin: 5px auto;
+}
+.two{
+     border-right: 1px solid gray;
+     border-left: 1px solid gray;
+     width: 110px;
+     background-color: white;
+     cursor: pointer;
+}
+.two img{
+    margin: 6px auto;
+}
+.three{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    width:110px;
+    background-color: white;
+    cursor: pointer;  
+}
+
+.three img{
+    margin: 7px auto;
+}
+.four{
+    cursor: pointer;  
+    width:200px;
+    background-color: white; 
+}
+.four img{
+    margin: 5px auto;
+}
+
+
+.five{
+    cursor: pointer;
+    width:200px;
+    background-color: white; 
+}
+.five img{
+    margin: 5px auto;
+}
+.six{
+    width: 200px;
+    cursor: pointer;
+    background-color: white;
+}
+.six img{
+    margin: 5px auto;
+}
+/*hover ka kam*/
+
+.take:hover{
+    animation: bounce 0.1s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(6px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+/* image ka kam khatam */
+
+
+#main{
+    
+    width:950px;
+    height: 900px;
+    margin: 0px auto;
+    padding-top: 50px;
+} 
+
+nav{
+    width: 950px;
+    height:70px;
+    display:inline-block;
+   
+    
+    
+}
+
+.rent{
+      width:950px;
+      height: 70px;
+      margin: 0px auto;
+      position: sticky;
+      position: -webkit-sticky;
+      top:0px;
+      background-color: white;
+      
+}
+
+
+
+nav div{
+    
+    float: left;
+    width: 135px;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+nav div p{
+    margin-top: 20px;
+}
+
+nav div:first-child{
+    border-bottom: 5px solid gray;
+}
+nav div:first-child:hover{
+    background-color: gray;
+    color: white;
+}
+
+nav div:nth-child(2){
+    border-bottom: solid 5px red;
+
+
+}
+
+nav div:nth-child(2):hover{
+    background-color: red;
+    color: white;
+}
+
+nav div:nth-child(3){
+    border-bottom: 5px orangered solid;
+}
+nav div:nth-child(3):hover{
+    background-color: orangered;
+    color: white;
+}
+nav div:nth-child(4){
+    border-bottom: rgb(255, 165, 0, 0.8) solid 5px;
+
+}
+
+nav div:nth-child(4):hover{
+    background-color: rgb(255, 165, 0, 0.8);
+    color: white;
+}
+
+nav div:nth-child(5){
+    border-bottom: 5px rgb(0, 128, 0,0.8) solid;
+}
+
+nav div:nth-child(5):hover{
+    background-color: rgb(0, 128, 0, .8);
+    color: white;
+}
+
+
+nav div:nth-child(6){
+    border-bottom: 5px solid skyblue;
+}
+
+nav div:nth-child(6):hover{
+    background-color: skyblue;
+    color: white;
+}
+
+nav div:nth-child(7){
+    border-bottom: 5px solid darkblue;
+}
+
+nav div:nth-child(7):hover{
+    background-color: darkblue;
+    color: white;
+}
+/*end this nav bar*/
+
+
+.card{
+    border: 1px solid white;
+    height:460px;
+    width: 950px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+
+
+
+
+
+}
+.bigcard{
+    border: 1px solid white;
+    height: 450px;
+    width: 600px;
+    background-color: gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bigcard img{
+    width: 600px;
+    height: 320px;
+}
+
+.enter{
+    font-size: 22px;
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.bigcard p{
+    font-size: 19px;
+    margin-left: 20px;
+}
+.bigcard:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+.card2{
+      height: 150px;
+      width: 300px;
+      border: 1px solid white;
+     display: flex;
+     border-radius: 5px;  
+     cursor: pointer;
+
+
+}
+
+.img img{
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+}
+.img{
+    width: 100px;
+    height:150px;
+    background-color: blue;
+    
+
+
+}
+.tank{
+    height: 150px;
+    background-color: orangered;
+    width: 200px;
+    color: white;
+    
+}
+.tank p{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.ture{
+    
+    width: 300px;
+    height: 450px;
+    
+}
+.card2:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+
+
+
+/* card3 work start */
+
+.card3{
+     height: 300px;
+     width: 300px;
+     margin-top: 10px;
+    cursor: pointer;
+   border-radius: 5px;
+   background-color: blue;
+
+}
+.card3 img{
+    width: 100%;
+    height: 150px;
+}
+.card3 p{
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card3:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+.ndcard{
+    width: 950px;
+    height: 270px;
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rap{
+    height: 250px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: orange;
+}
+.rap img{
+    width: 100%;
+    height: 150px;
+}
+.rap p{
+     color: white;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     margin-left: 20px;
+     margin-left: 20px;
+}
+
+
+
+.rap:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rap1{
+     height: 270px;
+     width: 300px;
+     cursor: pointer;
+     background-color: orangered;
+     border: 1px solid white;
+     border-radius: 5px;
+}
+.rap1 img{
+    width: 100%;
+    height: 150px;
+}
+
+.rap1 p{
+    color: white;
+    font-size: 22px;
+     margin-left: 20px;
+     margin-right: 20px;
+
+
+}
+.rap1:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+.rap2{
+    background-color: green;
+    height: 270px;
+    width: 300px;
+    cursor:pointer ;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.rap2 img{
+    width: 100%;
+    height: 150px;
+}
+.rap2 p{
+     color: white;
+     font-size: 23px;
+     margin-left: 30px;
+     margin-right: 20px;
+
+}
+
+
+.rap2:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+/* end this card*/
+
+
+
+marquee{
+    height: 400px;
+    width: 100%;
+
+}
+
+.slider{
+    
+    
+    height: 400px;
+    background-color: black;
+    
+}
+
+
+
+
+.box{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+.wet1{
+    height: 400px;
+    width: 300px;
+   cursor: pointer;
+   transition: 1s;
+}
+.wet1 img{
+    height: 250px;
+    width: 100%;
+
+}
+.wet1 b{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.wet1:hover{
+    transform:scale(1.5);
+    z-index: 2;
+}
+.wet2{
+    height: 400px;
+    width: 300px;
+   cursor: pointer;
+   transition: 1s;
+}
+.wet2 img{
+    height: 250px;
+    width: 100%;
+
+}
+.wet2 b{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.wet2:hover{
+    transform:scale(1.5);
+    z-index: 2;
+}
+
+.wet3{
+    height: 400px;
+    width: 300px;
+   cursor: pointer;
+   transition: 1s;
+}
+.wet3 img{
+    height: 250px;
+    width: 100%;
+
+}
+.wet3 b{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.wet3:hover{
+    transform:scale(1.5);
+    z-index: 2;
+}
+
+
+.wet4{
+    height: 400px;
+    width: 300px;
+   cursor: pointer;
+   transition: 1s;
+}
+.wet4 img{
+    height: 250px;
+    width: 100%;
+
+}
+.wet4 b{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.wet4:hover{
+    transform:scale(1.5);
+    z-index: 2;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    
+    cursor: pointer;
+}
+
+.but{
+    height:50px;
+    width: 200px;
+    margin-top: 90px;
+    margin-left: 1100px;
+    display: flex;
+
+}
+.nut{
+   width: 190px;
+   height: 50px;
+
+}
+.flex-box{
+    width: 950px;
+    height: 400px;
+    
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box-one{
+    height: 350px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: orange;
+    width: 300px;
+    margin-top: 45px;
+}
+.box-one img{
+    width: 100%;
+    height: 150px;
+}
+
+.box-one p{
+    color: white;
+    font-size: 23px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.box-one :nth-child(3){
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+    color: black;
+}
+.box-one:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+.box-two{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.box-two img{
+    width: 100%;
+    height: 150px;
+
+}
+.box-two p{
+          font-size: 23px;
+          color: white;
+          margin-left: 15px;
+          margin-right: 20px;
+
+
+
+
+}
+.box-two p:nth-child(3){
+    color: black;
+    font-size: 18px;
+}
+
+.box-two:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+.box-three{
+    height: 350px;
+    width: 300px;
+    background-color: purple;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+
+.box-three img{
+    width: 100%;
+    height: 150px;
+
+}
+.box-three p{
+    font-size: 23px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box-three p:nth-child(3){
+    color: black;
+    font-size: 18px;
+}
+
+.box-three:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+.trend{
+    
+    height: 90px;
+    width: 300px;
+    margin: -110px auto;
+}
+
+.trend p{
+    color: rgb(36, 36, 36);
+    font-size: 25px;
+    
+}
+
+.rate{
+    
+    height: 400px;
+    width: 950px;
+    margin: 80px auto;
+    justify-content: space-around;
+    display: flex;
+}
+.rate1{
+    height: 350px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+}
+.rate1 img{
+    height: 150px;
+    width: 100%;
+
+}
+.rate1 p{
+    color: white;
+    font-size: 23px;
+    margin-left: 15px;
+    margin-right:25px;
+}
+
+
+.rate1 p:nth-child(3){
+    font-size: 18px;
+    color: gray;
+}
+
+.rate1:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+.rate2{
+    border-radius: 5px;
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+    background-color: blue;
+    margin-top: 45px;
+
+}
+
+
+.rate2 img{
+    height: 150px;
+    width: 100%;
+}
+.rate2 p{
+    font-size: 23px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 80px;
+}
+
+.rate2 p:nth-child(3){
+    font-size: 18px;
+    margin-right: 20px;
+    color: skyblue;
+}
+
+.rate2:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+.rate3{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+    background-color:rgb(0, 0, 255,.8);
+    border-radius: 5px;
+}
+.rate3 img{
+    height: 150px;
+    width: 100%;
+}
+.rate3 p{
+    color: white;
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+.rate3 p:nth-child(3){
+    color: black;
+    font-size: 18px;
+}
+
+.rate3:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+.iconu{
+    height:120px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top:-110px ;
+    margin-left: 840px;
+}
+
+.mad{
+    height: 60px;
+    width: 100%;
+    background-color: orangered;
+    margin-top: -30px;
+}
+
+.mad p{
+    color: white;
+    font-size: 23px;
+    
+    margin-left: 30px;
+}
+.made{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 0, 255,.8);
+    margin-top: -17.78px;
+}
+.made p{
+    font-size: 18px;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.iconu:hover{
+    animation: bounce .07s ;
+}
+@keyframes bounce {
+0%
+20%
+60%
+100%{
+    transform:translateY(0);
+}
+80%{
+    transform:translateY(-8px);
+}
+
+40%{
+    transform:translateY(0);
+}
+
+
+}
+
+footer{
+    height: 400px;
+    background-color: rgb(44, 41, 41);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.list{
+    width: 350px;
+    height: 400px;
+    margin-top:50px;
+    
+}
+
+.list p{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.list ul{
+    line-height: 30px;
+
+}
+.list li{
+    color: gray;
+    cursor: pointer;
+}
+
+.list li:hover{
+    color: white;
+
+}
+
+.links{
+     height: 300px;
+     width: 310px;
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-evenly;
+     border-left: 3px solid gray;
+     border-right: 3px solid gray;
+}
+
+.links img{
+    width: 45px;
+    height: 50px;
+
+}
+
+.foot{
+    height: 350px;
+    width: 300px;
+    margin-top: 50px;
+    
+}
+
+.foot img{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.foot li{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot ul{
+    line-height: 20px;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+.foot li:hover{
+    color: white;
+}
+
+.foot p{
+    color: gray;
+    margin-left: 10px;
+}
+
+
+
